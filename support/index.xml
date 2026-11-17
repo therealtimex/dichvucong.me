@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hỗ trợ on DVC AI</title><link>https://dichvucong.me/support/</link><description>Recent content in Hỗ trợ on DVC AI</description><generator>Hugo -- gohugo.io</generator><language>vi</language><copyright>RealTimeX</copyright><atom:link href="https://dichvucong.me/support/index.xml" rel="self" type="application/rss+xml"/><item><title>DVC AI hỗ trợ người dân thực hiện dịch vụ công như thế nào?</title><link>https://dichvucong.me/support/dvcai-flow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dichvucong.me/support/dvcai-flow/</guid><description>&lt;p>DVC AI cung cấp một quy trình hỗ trợ người dân thực hiện dịch vụ công như sau:&lt;/p>
+&lt;ol>
+&lt;li>Người dân truy cập trang web &lt;a class="link" href="https://dichvucong.me/" target="_blank" rel="noopener"
+>dichvucong.me&lt;/a> để sử dụng DVC AI.&lt;/li>
+&lt;li>Tại trang web, người dân có thể bắt đầu chat với AI để nhận hướng dẫn và hỗ trợ.&lt;/li>
+&lt;li>DVC AI sẽ cung cấp hướng dẫn và yêu cầu người dân điền thông tin vào form trên điện thoại thông minh hoặc máy tính.&lt;/li>
+&lt;li>Sau khi người dân điền và gửi form, hệ thống xử lý dữ liệu của DVC AI sẽ tiếp nhận và xử lý thông tin.&lt;/li>
+&lt;li>DVC AI tạo ra một gói tài liệu đầy đủ dựa trên thông tin đã được cung cấp.&lt;/li>
+&lt;li>Người dân sẽ nhận được thông báo qua email về gói tài liệu đã tạo.&lt;/li>
+&lt;li>Người dân có thể nộp hồ sơ theo hướng dẫn trong thông báo hoặc tải xuống file nén chứa tài liệu.&lt;/li>
+&lt;li>Cuối cùng, người dân có thể nộp hồ sơ hoặc sử dụng file nén để tiếp tục quá trình thực hiện dịch vụ công.&lt;/li>
+&lt;/ol>
+&lt;div class="mermaid-container" style="position: relative;">
+&lt;div id="mermaid-loading" class="loading-iframe">&lt;/div>
+&lt;div class="mermaid" style="visibility: hidden;">
+graph TD
+A[Công dân truy cập &lt;br>dichvucong.me] --> B
+B[Chat với AI] --> C
+C{Điền form trên &lt;br>smartphone/máy tính} -->|Gửi form| D
+D[Hệ thống xử lý dữ liệu] --> E
+E[Tạo tài liệu] --> F
+F[Thông báo qua email] --> G
+E --> H
+H[Tạo file nén] --> I
+I[Tải file nén] --> G
+G[Nộp hồ sơ]
+&lt;/div>
+&lt;/div>
+&lt;script>
+$(document).ready(function() {
+const mermaidContainer = $(".mermaid-container");
+const mermaidLoading = $("#mermaid-loading");
+const mermaidDiv = mermaidContainer.find(".mermaid");
+mermaidLoading.css("display", "block");
+mermaid.initialize({ startOnLoad: true });
+function renderMermaid() {
+mermaid.init(undefined, mermaidDiv.get(0));
+mermaidDiv.css("visibility", "visible");
+mermaidLoading.css("display", "none");
+}
+const observer = new MutationObserver(function(mutationsList, observer) {
+for (let mutation of mutationsList) {
+if (mutation.type === 'childList') {
+renderMermaid();
+observer.disconnect();
+}
+}
+});
+observer.observe(mermaidDiv.get(0), { childList: true });
+});
+&lt;/script>
+&lt;p>Qua quy trình trên, DVC AI hỗ trợ người dân bằng cách cung cấp hướng dẫn, thu thập thông tin, tạo tài liệu và thông báo để giúp người dân thực hiện dịch vụ công một cách thuận tiện và hiệu quả.&lt;/p></description></item><item><title>DVC AI là gì</title><link>https://dichvucong.me/support/dvcai-la-gi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dichvucong.me/support/dvcai-la-gi/</guid><description>&lt;p>DVC AI là một công cụ số được trang bị trí tuệ nhân tạo (AI) nhằm nâng cao khả năng dân cư tiếp cận dịch vụ công ở Việt Nam. Nó được phát triển bởi một dự án được hỗ trợ bởi Chương trình Phát triển Liên Hiệp Quốc (UNDP) tại Việt Nam và do Công ty Real-Time Analytics (RTA) phát triển.&lt;/p></description></item><item><title>Hướng dẫn chat với DVC AI</title><link>https://dichvucong.me/support/dvcai-huong-dan-chat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dichvucong.me/support/dvcai-huong-dan-chat/</guid><description>&lt;div class="video-wrapper" style="margin: 20px 0;">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/3BvUMilLJJ4"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;p>DVC AI hỗ trợ anh/chị tìm hiểu thủ tục hành chính công theo từng bước. Anh/chị chỉ cần chọn đúng thủ tục, đặt câu hỏi rõ nội dung cần hỗ trợ và làm theo hướng dẫn hiển thị trên màn hình.&lt;/p>
+&lt;h2 id="các-bước-thực-hiện">Các bước thực hiện&lt;/h2>
+&lt;ol>
+&lt;li>Truy cập trang &lt;a class="link" href="https://dichvucong.me/" target="_blank" rel="noopener"
+>dichvucong.me&lt;/a> và chọn thủ tục hành chính anh/chị cần thực hiện.&lt;/li>
+&lt;li>Nhấn vào nút &lt;span class="support-inline-action support-inline-action--chat">&lt;svg viewBox="0 0 24 24" aria-hidden="true">
+&lt;path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z">&lt;/path>
+&lt;path d="M8 10h8">&lt;/path>
+&lt;path d="M8 14h5">&lt;/path>
+&lt;/svg>&lt;span>Hỏi đáp&lt;/span>
+&lt;/span>
+hiển thị ở dưới thủ tục.&lt;/li>
+&lt;li>Nhập câu hỏi hoặc nội dung anh/chị cần được hướng dẫn.&lt;/li>
+&lt;li>Theo dõi phần trả lời của DVC AI và thực hiện lần lượt theo từng bước.&lt;/li>
+&lt;li>Nếu cần hỏi thêm, anh/chị tiếp tục nhập nội dung vào khung chat để được hỗ trợ.&lt;/li>
+&lt;li>Nếu muốn chuyển sang thủ tục khác, anh/chị làm mới cuộc trò chuyện hoặc quay lại trang chủ để chọn lại thủ tục phù hợp.&lt;/li>
+&lt;/ol>
+&lt;h2 id="lưu-ý">Lưu ý&lt;/h2>
+&lt;ul>
+&lt;li>Anh/chị nên nêu rõ tên thủ tục hoặc nội dung cần hỏi để nhận được hướng dẫn đúng và đầy đủ hơn.&lt;/li>
+&lt;li>Trước khi đặt câu hỏi, anh/chị nên chọn đúng thủ tục trên hệ thống để nội dung hỗ trợ sát với nhu cầu thực tế.&lt;/li>
+&lt;li>Trường hợp cần chuẩn bị hồ sơ, DVC AI có thể hướng dẫn anh/chị chuyển sang bước điền form tạo bộ hồ sơ.&lt;/li>
+&lt;/ul>
+&lt;h2 id="câu-hỏi-thường-gặp">Câu hỏi thường gặp&lt;/h2>
+&lt;p>&lt;strong>Tôi có thể hỏi nhiều nội dung trong cùng một lần chat không?&lt;/strong>
+Anh/chị có thể tiếp tục đặt câu hỏi trong cùng cuộc trò chuyện, tuy nhiên nên hỏi theo từng nội dung cụ thể để dễ theo dõi.&lt;/p>
+&lt;p>&lt;strong>Nếu tôi chọn nhầm thủ tục thì phải làm sao?&lt;/strong>
+Anh/chị nên quay lại trang chủ, chọn đúng thủ tục cần thực hiện rồi mở lại AI Chat.&lt;/p>
+&lt;p>&lt;strong>Tôi không biết bắt đầu hỏi như thế nào?&lt;/strong>
+Anh/chị có thể nhập ngắn gọn theo mẫu như: &amp;ldquo;Tôi muốn được hướng dẫn thủ tục đăng ký kết hôn&amp;rdquo; hoặc &amp;ldquo;Tôi cần chuẩn bị hồ sơ gì cho thủ tục này?&amp;rdquo;.&lt;/p></description></item><item><title>Hướng dẫn điền form tạo bộ hồ sơ</title><link>https://dichvucong.me/support/dvcai-huong-dan-dien-form/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dichvucong.me/support/dvcai-huong-dan-dien-form/</guid><description>&lt;div class="video-wrapper" style="margin: 20px 0;">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/TTCCr7PxwEc"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;p>Tính năng tạo bộ hồ sơ giúp anh/chị khai thông tin trực tuyến, tải lên giấy tờ cần thiết và hoàn thiện hồ sơ theo từng bước. Sau khi gửi thành công, hệ thống sẽ tiếp nhận và gửi thông tin kết quả qua thư điện tử anh/chị đã nhập trong form. Anh/chị có thể chuẩn bị hồ sơ không cần tài khoản; tài khoản rtWork chỉ dùng khi muốn lưu và xem lại hồ sơ sau này.&lt;/p>
+&lt;h2 id="các-bước-thực-hiện">Các bước thực hiện&lt;/h2>
+&lt;ol>
+&lt;li>Truy cập &lt;a class="link" href="https://dichvucong.me/" target="_blank" rel="noopener"
+>dichvucong.me&lt;/a> và chọn đúng thủ tục anh/chị cần thực hiện.&lt;/li>
+&lt;li>Nhấn vào nút &lt;span class="support-inline-action support-inline-action--prepare">&lt;svg viewBox="0 0 24 24" aria-hidden="true">
+&lt;path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z">&lt;/path>
+&lt;path d="M14 2v6h6">&lt;/path>
+&lt;path d="M16 13H8">&lt;/path>
+&lt;path d="M16 17H8">&lt;/path>
+&lt;path d="M10 9H8">&lt;/path>
+&lt;/svg>&lt;span>Chuẩn bị hồ sơ&lt;/span>
+&lt;/span>
+để mở form khai thông tin.&lt;/li>
+&lt;li>Điền đầy đủ các nội dung theo từng mục trong biểu mẫu.&lt;/li>
+&lt;li>Tải lên giấy tờ, hình ảnh hoặc tài liệu theo yêu cầu của thủ tục.&lt;/li>
+&lt;li>Ký xác nhận tại phần chữ ký điện tử nếu hệ thống yêu cầu.&lt;/li>
+&lt;li>Kiểm tra lại toàn bộ thông tin đã khai.&lt;/li>
+&lt;li>Nhấn nút &amp;ldquo;Gửi&amp;rdquo; để hoàn tất việc tạo bộ hồ sơ.&lt;/li>
+&lt;/ol>
+&lt;h2 id="lưu-ý">Lưu ý&lt;/h2>
+&lt;ul>
+&lt;li>Các mục có dấu sao đỏ là nội dung bắt buộc, anh/chị cần điền đầy đủ trước khi chuyển bước tiếp theo.&lt;/li>
+&lt;li>Với các mục chọn sẵn, anh/chị chọn đúng thông tin trong danh sách hiển thị.&lt;/li>
+&lt;li>Với các mục ngày, tháng, năm, anh/chị chọn đúng mốc thời gian trên lịch của hệ thống.&lt;/li>
+&lt;li>Khi tải tệp hoặc hình ảnh lên, anh/chị cần kiểm tra đã hiển thị dấu xác nhận thành công.&lt;/li>
+&lt;li>Nếu chọn tiếp tục không cần tài khoản, anh/chị cần nhập đúng email để hệ thống gửi lại hồ sơ.&lt;/li>
+&lt;li>Tài khoản rtWork chỉ cần khi anh/chị muốn lưu hồ sơ trong mục &amp;ldquo;Hồ sơ của tôi&amp;rdquo; để xem lại hoặc quản lý sau này.&lt;/li>
+&lt;li>Anh/chị nên kiểm tra kỹ thông tin trước khi gửi để hạn chế phải khai lại.&lt;/li>
+&lt;/ul>
+&lt;h2 id="câu-hỏi-thường-gặp">Câu hỏi thường gặp&lt;/h2>
+&lt;p>&lt;strong>Tôi có bắt buộc phải đăng ký tài khoản rtWork để tạo hồ sơ không?&lt;/strong>
+Không bắt buộc. Anh/chị có thể chọn tiếp tục không cần tài khoản, nhập email trong form và nhận lại hồ sơ qua email.&lt;/p>
+&lt;p>&lt;strong>Khi nào tôi nên đăng nhập tài khoản rtWork?&lt;/strong>
+Anh/chị nên đăng nhập nếu muốn lưu hồ sơ trong mục &amp;ldquo;Hồ sơ của tôi&amp;rdquo;, xem lại hoặc quản lý hồ sơ đã tạo sau này.&lt;/p>
+&lt;p>&lt;strong>Nếu tôi chưa đăng nhập được thì có tiếp tục làm hồ sơ được không?&lt;/strong>
+Có. Anh/chị có thể chọn tiếp tục không cần tài khoản, nhập email trong form và nhận lại hồ sơ qua email.&lt;/p>
+&lt;p>&lt;strong>Tôi có thể dùng điện thoại để điền form không?&lt;/strong>
+Anh/chị có thể thực hiện trên điện thoại hoặc máy tính có kết nối mạng.&lt;/p>
+&lt;p>&lt;strong>Nếu tải ảnh lên nhưng chưa thấy xác nhận thì sao?&lt;/strong>
+Anh/chị nên kiểm tra lại tệp đã chọn và thực hiện tải lên lại cho đến khi hệ thống xác nhận thành công.&lt;/p>
+&lt;p>&lt;strong>Sau khi gửi form, tôi nhận kết quả ở đâu?&lt;/strong>
+Thông tin tiếp nhận hoặc kết quả liên quan sẽ được gửi qua thư điện tử mà anh/chị đã khai trên hệ thống.&lt;/p></description></item><item><title>Hướng dẫn góp ý DVC AI</title><link>https://dichvucong.me/support/dvcai-huong-dan-gop-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dichvucong.me/support/dvcai-huong-dan-gop-y/</guid><description>&lt;div class="video-wrapper" style="margin: 20px 0;">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/I-0cQ5rvXxU"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;p>Tính năng góp ý giúp anh/chị gửi nhận xét, phản ánh và đề xuất trong quá trình sử dụng hệ thống. Ý kiến của anh/chị là cơ sở để tiếp tục hoàn thiện chất lượng hỗ trợ và nâng cao trải nghiệm sử dụng dịch vụ.&lt;/p>
+&lt;h2 id="các-bước-thực-hiện">Các bước thực hiện&lt;/h2>
+&lt;ol>
+&lt;li>Truy cập &lt;a class="link" href="https://dichvucong.me/" target="_blank" rel="noopener"
+>dichvucong.me&lt;/a> và chọn thủ tục hoặc nội dung anh/chị đang sử dụng.&lt;/li>
+&lt;li>Nhấn vào nút &lt;span class="support-inline-action support-inline-action--feedback">&lt;svg viewBox="0 0 24 24" aria-hidden="true">
+&lt;path d="M9 18h6">&lt;/path>
+&lt;path d="M10 22h4">&lt;/path>
+&lt;path d="M12 2a7 7 0 0 0-4 12c.5.5 1 1 1 2h6c0-1 0-1.5 1-2a7 7 0 0 0-4-12z">&lt;/path>
+&lt;/svg>&lt;span>Góp ý&lt;/span>
+&lt;/span>
+trên giao diện tương ứng.&lt;/li>
+&lt;li>Điền đầy đủ các nội dung theo biểu mẫu góp ý.&lt;/li>
+&lt;li>Kiểm tra lại nội dung đã nhập.&lt;/li>
+&lt;li>Nhấn nút &amp;ldquo;Gửi&amp;rdquo; để hoàn tất.&lt;/li>
+&lt;/ol>
+&lt;h2 id="lưu-ý">Lưu ý&lt;/h2>
+&lt;ul>
+&lt;li>Anh/chị nên trình bày ngắn gọn, rõ ý và đúng nội dung cần phản ánh.&lt;/li>
+&lt;li>Nếu góp ý liên quan đến thao tác sử dụng, anh/chị nên nêu rõ bước gặp vướng mắc để hệ thống dễ tiếp nhận và xem xét.&lt;/li>
+&lt;li>Nội dung góp ý nên tập trung vào trải nghiệm sử dụng, khó khăn gặp phải hoặc đề xuất cải thiện.&lt;/li>
+&lt;/ul>
+&lt;h2 id="câu-hỏi-thường-gặp">Câu hỏi thường gặp&lt;/h2>
+&lt;p>&lt;strong>Tôi nên góp ý về những nội dung nào?&lt;/strong>
+Anh/chị có thể góp ý về lợi ích của dịch vụ, khó khăn trong quá trình sử dụng hoặc đề xuất cải thiện hệ thống.&lt;/p>
+&lt;p>&lt;strong>Sau khi gửi góp ý, tôi có cần thực hiện thêm bước nào không?&lt;/strong>
+Sau khi gửi thành công, anh/chị không cần thao tác thêm.&lt;/p>
+&lt;p>&lt;strong>Góp ý của tôi có được tiếp nhận không?&lt;/strong>
+Các góp ý gửi qua biểu mẫu sẽ được tiếp nhận để phục vụ việc rà soát và cải thiện chất lượng hệ thống.&lt;/p></description></item><item><title>Hướng dẫn quản lý hồ sơ</title><link>https://dichvucong.me/support/dvcai-huong-quan-ly-ho-so/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dichvucong.me/support/dvcai-huong-quan-ly-ho-so/</guid><description>&lt;div class="video-wrapper" style="margin: 20px 0;">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/GH_Agz6LP1E"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;p>Mục &amp;ldquo;Hồ sơ của tôi&amp;rdquo; giúp anh/chị theo dõi, tra cứu và quản lý các hồ sơ đã tạo và lưu trong tài khoản rtWork. Tại đây, anh/chị có thể xem lại thông tin hồ sơ, tải hồ sơ xuống hoặc xóa hồ sơ khi không còn nhu cầu sử dụng. Nếu anh/chị chọn chuẩn bị hồ sơ không cần tài khoản, hồ sơ sẽ được gửi qua email đã nhập trong form.&lt;/p>
+&lt;h2 id="các-bước-thực-hiện">Các bước thực hiện&lt;/h2>
+&lt;ol>
+&lt;li>Truy cập trang &lt;a class="link" href="https://dichvucong.me/" target="_blank" rel="noopener"
+>dichvucong.me&lt;/a>.&lt;/li>
+&lt;li>Nhấn vào biểu tượng menu ở góc trái trên màn hình.&lt;/li>
+&lt;li>Chọn mục &lt;a class="link" href="https://dichvucong.me/dossier/" target="_blank" rel="noopener"
+>✅ 🗂️ Hồ sơ của tôi&lt;/a>.&lt;/li>
+&lt;li>Đăng nhập bằng tài khoản rtWork đã có.&lt;/li>
+&lt;li>Xem danh sách hồ sơ đã tạo trên hệ thống.&lt;/li>
+&lt;li>Chọn hồ sơ cần xem để kiểm tra thông tin hoặc tải xuống khi cần.&lt;/li>
+&lt;li>Xóa hồ sơ nếu anh/chị không còn nhu cầu lưu trữ trên hệ thống.&lt;/li>
+&lt;/ol>
+&lt;h2 id="lưu-ý">Lưu ý&lt;/h2>
+&lt;ul>
+&lt;li>Anh/chị chỉ cần đăng nhập tài khoản khi muốn xem lại và quản lý hồ sơ đã lưu trong rtWork.&lt;/li>
+&lt;li>Nếu chưa có tài khoản, anh/chị vẫn có thể chuẩn bị hồ sơ theo luồng không đăng nhập và nhận hồ sơ qua email đã nhập trong form.&lt;/li>
+&lt;li>Anh/chị nên kiểm tra đúng hồ sơ trước khi tải xuống hoặc xóa để tránh nhầm lẫn.&lt;/li>
+&lt;li>Trường hợp cần lưu giữ lâu dài, anh/chị nên tải hồ sơ về thiết bị để thuận tiện tra cứu khi cần.&lt;/li>
+&lt;/ul>
+&lt;h2 id="câu-hỏi-thường-gặp">Câu hỏi thường gặp&lt;/h2>
+&lt;p>&lt;strong>Tôi không đăng nhập thì có xem được hồ sơ không?&lt;/strong>
+Nếu không đăng nhập, anh/chị nhận hồ sơ qua email đã nhập trong form. Để xem lại danh sách hồ sơ trong mục &amp;ldquo;Hồ sơ của tôi&amp;rdquo;, anh/chị cần đăng nhập tài khoản rtWork.&lt;/p>
+&lt;p>&lt;strong>Tôi có thể tải hồ sơ về máy không?&lt;/strong>
+Anh/chị có thể tải xuống các hồ sơ đã hoàn thành hoặc các tài liệu liên quan khi cần sử dụng.&lt;/p>
+&lt;p>&lt;strong>Nếu không còn nhu cầu sử dụng hồ sơ, tôi phải làm sao?&lt;/strong>
+Anh/chị có thể chọn xóa hồ sơ trong mục quản lý hồ sơ.&lt;/p></description></item></channel></rss>
